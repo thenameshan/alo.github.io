@@ -310,3 +310,6 @@ footer p {
 	margin: 0 auto;
 }
 
+#particle, .particle{
+	height: 600px !important;
+}
