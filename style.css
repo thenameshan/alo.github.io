@@ -313,3 +313,9 @@ footer p {
 #particle, .particle{
 	height: 600px !important;
 }
+
+@media screen and (max-width: 600px) {
+	.title{
+		
+		max-width: 100%
+	}
