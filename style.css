@@ -322,15 +322,15 @@ footer p {
 
 @media screen and (max-width: 600px) {
 	body{
-
-		max-width: 100%;
+		width: auto;
+		
 	}
 }
 
 @media only screen and (min-width: 600px){
 	body{
 
-		max-width: 100%;
+		max-width: auto;
 	}
 }
 @media only screen and (min-width: 600px){
