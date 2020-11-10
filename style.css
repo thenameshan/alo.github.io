@@ -149,9 +149,6 @@ summary{
 	font-size: 46px;
 	text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
-
-
-
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -194,6 +191,10 @@ summary{
 
 img{
 	box-shadow: 0 10px 20px rgba(0,0,0,.5);
+
+  width: 100%;
+  height: auto;
+
 }
 section{
 	margin-top: 100px;
@@ -308,3 +309,8 @@ footer p {
 	margin: 0 auto;
 }
 
+@media only screen and (max-width: 600px) {
+  div.title {
+    font-size: 30px;
+  }
+}
