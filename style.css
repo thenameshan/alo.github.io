@@ -352,11 +352,26 @@ footer p {
 	.title{
 		max-width: 100%;
 	}
+	.hello{
+		width: 100%;
+	}
+	details{
+		width: 100%;
+	}
+	p{
+		width: 100%;
+	}
 }
 @media screen and (max-width: 600px){
 	body{
 		width: auto;
 	
+	}
+	details{
+		width: 100%;
+	}
+	p{
+		width: 100%;
 	}
 	#gallery{
 	
@@ -388,13 +403,12 @@ footer p {
 		display: none;
 	}
 }
-@media screen and (min-width: 599px){
-	.topnav{
-		display: block;
-	}
-}
+
 @media screen and (min-width: 600px){
 	.topnav{
-		display:block;
+
+		display:none;
 	}
+
 }
+
