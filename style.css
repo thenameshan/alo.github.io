@@ -367,23 +367,32 @@ footer p {
 		width: auto;
 	
 	}
-	details{
-		width: 100%;
-	}
-	p{
-		width: 100%;
-	}
+	section .hello {
+    padding: 10px;
+    margin: 35px 50px;
+  }
+  summary{
+    font-size: 25px;
+  }
 	#gallery{
 	
 		width: 100%;
 	}
-	div{
-		width: 100%;
-	}
 	
-	#particles-js{
-		display: none;
-	}
+  header .title h2 {
+    font-size: 60px;
+    margin-bottom: 200px;
+  }
+  
+  .header{
+  	height: 400px;
+  }
+
+  #buttn{
+  	margin: 0;
+  	display: none;
+  }
+
 	.title h2{
 	
 		width: 100%;
@@ -411,4 +420,3 @@ footer p {
 	}
 
 }
-

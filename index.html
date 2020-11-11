@@ -12,26 +12,27 @@
 		<body >
 
 		<!--Cabeçalho com id de script-->
-		
+		<header>
 			<div class="header" class="particles" id="particles-js">
 			<div class="title" >
 				<h2> Adeus VETS </h2>
 
 				<!--Botão de música - Ed Sheeran -->
 				<audio id="sound1" src="sounds/Photograph.mp3" preload="auto"></audio>
-  				<button class="soundb" onclick="document.getElementById('sound1').play();"><b> CLIQUE EM MIM!</b></button>
+  				<button class="soundb" id="buttn" onclick="document.getElementById('sound1').play();"><b> CLIQUE EM MIM!</b></button>
 
   				<!--Botão de música - Rick Astley -->
   				<audio id="sound2" src="sounds/Rick.mp3" preload="auto"></audio>
-  				<button  class="soundb" onclick="document.getElementById('sound2').play();"><b> OU EM MIM!</b></button>
+  				<button  class="soundb" id="buttn" onclick="document.getElementById('sound2').play();"><b> OU EM MIM!</b></button>
 
   				<!--Botão de atalho para a galeria-->
-				<button class="btn" onclick = "location.href = '#galeria'"><b>Galeria de momentos</b></button>
+				<button class="btn" id="buttn" onclick = "location.href = '#galeria'"><b>Galeria de momentos</b></button>
 
 				<!--Botão de atalho para Momentos-->
-				<button class="btn" onclick = "location.href = '#moments'"><b>Três anos</b></button>
+				<button class="btn" id="buttn" onclick = "location.href = '#moments'"><b>Três anos</b></button>
 			</div>
 		</div>
+	</header>
 		 <div class="topnav">
             <a onclick="document.getElementById('sound1').play();"><b>CLIQUE EM MIM!</b></a>
             <a onclick="document.getElementById('sound2').play();"><b>OU EM MIM!</b></a>
@@ -42,7 +43,7 @@
 
 		<!--Section para apresentação-->
 		<section>
-			 <details class="hello">
+			 <details class="hello" >
             	<summary ><b>Me abra!</b></summary>
               	 	<p id="first">Olá, bem vindo ao site dedicado ao 3EM2 de 2020.</p>
                		<p> Devido à pandemia de Covid-19, não tivemos a oportunidade de nos despedir corretamente de todos vocês.</p>
