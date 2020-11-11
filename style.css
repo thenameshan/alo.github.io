@@ -449,6 +449,7 @@ footer p {
 
 @media screen and (max-width: 600px) {
   .topnav a {
+  		margin-top:30px; 
     	float: none;
     	width: 100%;
   	}
@@ -462,14 +463,87 @@ footer p {
 }
 
 
-@media screen and (min-width: 600px){
-	.topnav{
 
-		display:none;
+
+@media screen and(max-width: 800px){
+	body{
+		width: auto;
 	}
 
+	section .hello {
+    	padding: 10px;
+   		margin: 35px 50px;
+  	}
+
+  	summary{
+    	font-size: 25px;
+  	}
+
+	#gallery{
+		width: 100%;
+	}
+	
+ 	header .title h2 {
+    	font-size: 60px;
+   		margin-bottom: 200px;
+  	}
+  
+  	.header{
+  		height: 400px;
+  	}
+
+  	#buttn{
+  		display: none;
+  	}
+
+	.title h2{
+		width: 100%;
+	}
+
+	.title{
+		max-width: 100%;
+	}
 }
 
+@media screen and (max-width: 640px) and (orientation: landscape) {
+	body{
+		width: auto;
+	}
+
+	section .hello {
+    	padding: 10px;
+   		margin: 35px 50px;
+  	}
+
+  	summary{
+    	font-size: 25px;
+  	}
+
+	#gallery{
+		width: 100%;
+	}
+	
+ 	header .title h2 {
+    	font-size: 60px;
+   		margin-bottom: 200px;
+  	}
+  
+  	.header{
+  		height: 400px;
+  	}
+
+  	#buttn{
+  		display: none;
+  	}
+
+	.title h2{
+		width: 100%;
+	}
+
+	.title{
+		max-width: 100%;
+	}
+}
 /*Photo Grid MQ - Faz um layout de duas colunas no lugar de quatro*/
 @media screen and (max-width: 800px) {
   .column {
