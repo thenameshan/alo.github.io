@@ -419,7 +419,7 @@ footer p {
 }
 @media screen and (max-width: 600px) {
   .topnav a {
-  	margin-top: 20px;
+  	margin-top: 40px;
     float: none;
     width: 100%;
   }
