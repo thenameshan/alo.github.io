@@ -69,12 +69,12 @@ a{
 	background-color:#616F39;
 }
 
-header{
+.header{
 	height: 600px;
 	box-shadow: 0 10px 20px rgba(0,0,0,.5);
 	background-color: #1B1919;
 }
-header .title{
+ .title{
 
 	text-align: center;
 	width: 1000px;
@@ -84,7 +84,7 @@ header .title{
 	transform: translate(-50%,-50%);
 }
 
-header .title h2{
+.title h2{
 	font-size: 60px;
 	margin-bottom: 15px;
 	color:#B3FFB8;
