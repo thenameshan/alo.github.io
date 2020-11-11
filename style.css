@@ -323,10 +323,10 @@ footer p {
 	}
 	.title h2{
 	
-		width: 100%;
+		width: auto;
 	}
 	.title{
-		max-width: 100%;
+		max-width: auto;
 	}
 }
 @media screen and (max-width: 600px){
@@ -340,9 +340,9 @@ footer p {
 	}
 	.title h2{
 	
-		width: 100%;
+		width: auto;
 	}
 	.title{
-		max-width: 100%;
+		max-width: auto;
 	}
 }
