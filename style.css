@@ -1,7 +1,17 @@
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
 body{
 	background-color: #F8EEB4;
-	margin: 0;
+	
 }
 
 .btn {
@@ -139,17 +149,7 @@ summary{
 }
 
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-html, body{
-	overflow-x: hidden;
-}
-html {
-  scroll-behavior: smooth;
-}
+
 
 .row {
   display: -ms-flexbox; /* IE10 */
