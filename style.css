@@ -388,7 +388,11 @@ footer p {
 		display: none;
 	}
 }
-
+@media only screen and (min-width: 599px){
+	.topnav{
+		display: none;
+	}
+}
 @media only screen and (min-width: 599px){
 	.topnav{
 		display: none;
