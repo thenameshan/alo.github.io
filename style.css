@@ -204,6 +204,28 @@ section{
 	margin-top: 100px;
 }
 
+.topnav {
+                overflow: hidden;
+                background-color: #1B1919;
+				
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                display: block;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                font-family: Helvetica;
+            }
+            .topnav a:hover {
+                background-color: #2DE783;
+                color: #2A3A2A;
+            }
+
+
+
 .slideshow-container {
               max-width: 540px;
               position: relative;
@@ -317,9 +339,8 @@ footer p {
 		width: auto;
 		
 	}
-	div{
-		width: 100%;
-	}
+
+	
 	#gallery{
 	
 		width: 100%;
@@ -344,11 +365,32 @@ footer p {
 	div{
 		width: 100%;
 	}
+	
+	#particles-js{
+		display: none;
+	}
 	.title h2{
 	
 		width: 100%;
 	}
 	.title{
 		max-width: 100%;
+	}
+}
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+	.topnav{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 599px){
+	.topnav{
+		display: none;
 	}
 }
