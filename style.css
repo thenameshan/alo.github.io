@@ -317,6 +317,9 @@ footer p {
 		width: auto;
 		
 	}
+	div{
+		width: 100%;
+	}
 	#gallery{
 	
 		width: 100%;
@@ -336,6 +339,9 @@ footer p {
 	}
 	#gallery{
 	
+		width: 100%;
+	}
+	div{
 		width: 100%;
 	}
 	.title h2{
