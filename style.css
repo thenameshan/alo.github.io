@@ -90,6 +90,7 @@ header .title h2{
 	font-size: 60px;
 	margin-bottom: 100px;
 	color:#B3FFB8;
+	position: relative;
 	font-family: Helvetica;
 	text-transform: uppercase;
 	text-shadow: 4px 4px 8px rgba(0,0,0,.5);
