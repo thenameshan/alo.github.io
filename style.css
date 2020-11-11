@@ -75,7 +75,7 @@ header .title{
 }
 
 header .title h2{
-	font-size: 90px;
+	font-size: 60px;
 	margin-bottom: 100px;
 	color:#B3FFB8;
 	font-family: Helvetica;
@@ -310,28 +310,39 @@ footer p {
 #particle, .particle{
 	height: 600px !important;
 }
-@media screen and (max-width: 600px){
+
+
+@media screen and (max-width: 800px) and (min-width: 600px){
+	body{
+		width: auto;
+		
+	}
+	#gallery{
+	
+		width: 100%;
+	}
+	.title h2{
+	
+		width: 100%;
+	}
 	.title{
 		max-width: 100%;
 	}
-
 }
-
 @media screen and (max-width: 600px){
 	body{
 		width: auto;
 		
 	}
-}
-@media screen and (max-width: 600px){
+	#gallery{
+	
+		width: 100%;
+	}
 	.title h2{
 	
 		width: 100%;
 	}
-}
-@media screen and (max-width: 600px){
-	#gallery{
-	
-		width: 100%;
+	.title{
+		max-width: 100%;
 	}
 }
