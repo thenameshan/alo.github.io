@@ -355,12 +355,28 @@ footer p {
 	.hello{
 		width: 100%;
 	}
-	details{
-		width: 100%;
-	}
-	p{
-		width: 100%;
-	}
+	section .hello {
+    padding: 10px;
+    margin: 35px 50px;
+  }
+  summary{
+    font-size: 25px;
+  }
+  	
+  header .title h2 {
+    font-size: 60px;
+    margin-bottom: 200px;
+  }
+  
+  .header{
+  	height: 400px;
+  }
+
+  #buttn{
+  	margin: 0;
+  	display: none;
+  }
+
 }
 @media screen and (max-width: 600px){
 	body{
