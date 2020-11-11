@@ -91,6 +91,9 @@ header .title h2{
 	margin-bottom: 100px;
 	color:#B3FFB8;
 	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
 	font-family: Helvetica;
 	text-transform: uppercase;
 	text-shadow: 4px 4px 8px rgba(0,0,0,.5);
