@@ -8,7 +8,7 @@ body{
   background-color: #A7D129;
   border: none;
   color: #2A3A2A;
-  padding: 24px 48px;
+  padding: 20px 44px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -30,7 +30,7 @@ body{
   background-color: #2DE783;
   border: none;
   color: #2A3A2A;
-  padding: 24px 48px;
+  padding: 20px 44px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -76,7 +76,7 @@ header .title{
 
 header .title h2{
 	font-size: 60px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	color:#B3FFB8;
 	font-family: Helvetica;
 	text-transform: uppercase;
