@@ -314,26 +314,26 @@ footer p {
 	height: 600px !important;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
 	.title{
 		max-width: 100%;
 	}
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
 	body{
 		width: auto;
 		
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
 	.title h2{
 	
 		width: 100%;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
 	#gallery{
 	
 		width: 100%;
