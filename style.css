@@ -362,7 +362,7 @@ footer p {
   summary{
     font-size: 25px;
   }
-  	
+
   header .title h2 {
     font-size: 60px;
     margin-bottom: 200px;
@@ -405,7 +405,7 @@ footer p {
   }
 
   #buttn{
-  	margin: 0;
+  	
   	display: none;
   }
 
@@ -419,6 +419,7 @@ footer p {
 }
 @media screen and (max-width: 600px) {
   .topnav a {
+  	margin-top: 20px;
     float: none;
     width: 100%;
   }
